@@ -1,6 +1,69 @@
+body{
+  background-color: white;
+}
 .services{
   background-image: url(images/s_image.jpg);
 }
 .Portfolio h2{
   text-align: center;
+}
+.head{
+  background-image: url(images/h_img.jpg);
+  text-align: center;
+  background-size: cover;
+}
+.services{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.about{
+  text-align: center;
+  font-size: 15px;
+}
+.hiden{
+  display: none;
+}
+.Hover {
+  opacity:0;
+  background-color:rgb(204, 185, 149);
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%; 
+}
+.col-1{
+
+  height: 150px;
+  max-width:150px;
+  padding:2px;
+}
+.row{
+  padding: 2%;
+}
+
+.Contact-Us{
+
+  background-image: url(images/c_image.jpg);
+  background-size:cover;
+  display: cover;
+  padding: 10%;
+}
+.Footer{
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+.delani-logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.MouseClick{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

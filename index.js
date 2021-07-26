@@ -26,7 +26,7 @@ $('.submit').click(function () {
         var Name = $('#mce-FNAME').val();
         var Email = $('#mce-EMAIL').val();
         var Message = $('#mce-MESSAGE');
-        var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+        var key ='user';
         if (Name == '' || Email == '' || Message == '') {
             alert('kindly fill in correctly!');
         } else {
