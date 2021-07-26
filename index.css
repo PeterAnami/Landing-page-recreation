@@ -15,5 +15,38 @@ body{
 .services{
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+}
+.about{
+  text-align: center;
+  font-size: 15px;
+}
+.hiden{
+  display: none;
+}
+.Hover {
+  opacity:0;
+  background-color:rgb(204, 185, 149);
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%; 
+}
+.col-2{
+
+  height: 280px;
+  max-width: 280px;
+  padding:2px;
+}
+.row{
+  padding: 2%;
+}
+
+.Contact-Us{
+
+  background-image: url(images/c_image.jpg);
+  background-size:cover;
+  display: cover;
+  padding: 10%;
 }
